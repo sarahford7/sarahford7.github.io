@@ -1,0 +1,33 @@
+
+.tab-content{
+	padding: 0 5vh 5vh 0vh;
+}
+
+.content h1{
+	text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  /*width: 100%;*/
+}
+
+.nav-pills .nav-link:not(.active){
+	/*background-color: red;*/
+	color: black;
+}
+
+.nav-pills .nav-link.active{
+	background-color: #ED1B30;
+	color: white
+}
+
+.nav-pills .nav-link:hover{
+	/*background-color: green;*/
+	color: #ED1B30;
+}
+
+.nav-pills .nav-link.active:hover{
+	color: white
+}
