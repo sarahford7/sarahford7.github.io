@@ -1,0 +1,34 @@
+
+/*begin body formatting*/
+.content h1{
+	text-align:center;
+
+}
+.container{
+	width: 70vw;
+	margin-left: auto;
+	margin-right: auto;
+	background: #e8e0db;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.container h3 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.container .member {
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+/*end paragraph*/
+.container ul li img {
+	height: 100px;
+	width: 92px;
+}
+
+.container:hover h3{
+	color: #ED1B30
+}

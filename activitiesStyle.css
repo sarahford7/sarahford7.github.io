@@ -1,0 +1,32 @@
+.content{
+	position: relative;
+}
+
+
+.releaseNum{
+	text-align: center;
+	justify-content: center;
+}
+
+.releaseNum .row h3{
+	text-align: center;
+	margin: auto;
+}
+
+.releaseNum h2{
+	font-size: 3em;
+}
+
+.card{
+	margin: 8px;
+}
+
+.card-footer{
+	background-color: #FFFBF4;
+	color: #B09C78;
+}
+
+.row{
+	padding-left: 5%;
+	padding-right: 5%;
+}
