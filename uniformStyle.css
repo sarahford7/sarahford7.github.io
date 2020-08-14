@@ -28,6 +28,7 @@ body {
 	padding: none;
 	color: #384955;
   	width: 100%;		/*adjust width if adding mcgill logo*/
+  font-family: 'Noto Sans';
 }
 
 .big-header img {
@@ -61,6 +62,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Noto Sans';
   
 }
 
@@ -128,6 +130,7 @@ footer {
   padding: 5px 0px 0px 10px;
   /*column-count: 2;*/
   display: inline-grid;
+  font-family: 'Noto Sans';
 }
 
 footer .left{
@@ -151,45 +154,3 @@ footer p {
 }
 
 
-
-/*---old----
-
-footer {
-  position: absolute;
-  display: inline-block;
-  border-style: solid none none none;
-  border-width: 2px;
-  background-color: #ddd;
-  bottom:0;
-  height:10%;
-  width: 100%;
-  font-size: 15px;
-  overflow: hidden;
-  padding: 5px 0px 0px 10px;
-  column-count: 2;
-  display: inline-grid;
-}
-
-footer .left{
-  column-span: 1;
-  text-align: center;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
-  text-align: center;
-}
-
-footer .right{
-  column-span: 1;
-  text-align: center;
-  grid-column-start: 2;
-  grid-row-start: 1;
-  grid-column-end: 3;
-  grid-row-end: 2;
-  text-align: center;
-}
-
-footer .footHeading {
-  font-weight: bold;
-}*/
