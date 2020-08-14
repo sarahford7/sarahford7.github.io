@@ -2,8 +2,9 @@
 /*begin body formatting*/
 .content h1{
 	text-align:center;
-
+	/*font-family: 'Noto Sans';*/
 }
+
 .container{
 	width: 70vw;
 	margin-left: auto;
@@ -16,6 +17,11 @@
 .container h3 {
 	text-align: center;
 	padding-top: 10px;
+	/*font-family: 'Lato';*/
+}
+
+.container h5 {
+/*	font-family: 'Lato';*/
 }
 
 .container .member {
@@ -23,12 +29,31 @@
 	margin-left: auto;
 	margin-right: auto;	
 }
-/*end paragraph*/
+
+.container li {
+/*	font-family: 'Roboto';*/
+}
+
 .container ul li img {
 	height: 100px;
 	width: 92px;
 }
 
 .container:hover h3{
-	color: #ED1B30
+	color: #ED1B30;
 }
+
+@media screen and (max-width: 600px) {
+	.container{
+		li{
+    margin-top: 20px;
+  
+}
+
+
+.container:hover h3{
+	color: blue;
+}
+
+}
+
